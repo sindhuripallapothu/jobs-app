@@ -160,8 +160,8 @@ function App() {
                     />
                   </div>
                 </span>
-                {/* <Results results={state.results} openPopup={openPopup} /> */}
-                <Results results={mock} openPopup={openPopup} />
+                <Results results={state.results} openPopup={openPopup} />
+                {/* <Results results={mock} openPopup={openPopup} /> */}
               </div>
             )}
 
