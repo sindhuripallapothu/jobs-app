@@ -11,7 +11,7 @@ import Results from "./components/Results";
 import Popup from "./components/Popup";
 // import PopupMock from "./components/PopupMock";
 import Header from "./components/Header";
-// import mock from "./mockData";
+import mock from "./mockData";
 
 // function InvalidSearchAlert(props) {
 //   const { text } = props;
@@ -160,8 +160,8 @@ function App() {
                     />
                   </div>
                 </span>
-                <Results results={state.results} openPopup={openPopup} />
-                {/* <Results results={mock} openPopup={openPopup} /> */}
+                {/* <Results results={state.results} openPopup={openPopup} /> */}
+                <Results results={mock} openPopup={openPopup} />
               </div>
             )}
 
