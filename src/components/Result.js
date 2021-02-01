@@ -12,16 +12,16 @@ function Result({ result, openPopup }) {
       : `${timeLapsed} hours ago`;
   return (
     <div className="result" onClick={() => openPopup(result.id)}>
-      <p>
+      <p id="company_type">
         <span>
           {time} {" . "}
           {result.type}
         </span>
       </p>
       <img src={result.company_logo} alt="company_logo" />
-      <p>{result.title}</p>
-      <p>{result.company}</p>
-      <p>{result.location}</p>
+      <p id="company_title">{result.title}</p>
+      <p id="company_name">{result.company}</p>
+      <p id="company_location">{result.location}</p>
     </div>
   );
 }
